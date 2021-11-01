@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG Listener Suite" duration-ms="10449" started-at="2021-11-01T10:53:31 FJT" finished-at="2021-11-01T10:53:41 FJT">
+  <suite name="TestNG Listener Suite" duration-ms="10420" started-at="2021-11-01T15:33:49 FJT" finished-at="2021-11-01T15:34:00 FJT">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="10449" started-at="2021-11-01T10:53:31 FJT" finished-at="2021-11-01T10:53:41 FJT">
+    <test name="Login Test" duration-ms="10420" started-at="2021-11-01T15:33:49 FJT" finished-at="2021-11-01T15:34:00 FJT">
       <class name="LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:LoginTest@7ce6a65d]" name="setUp" is-config="true" duration-ms="6592" started-at="2021-11-01T10:53:24 FJT" finished-at="2021-11-01T10:53:31 FJT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LoginTest@12cdcf4]" name="setUp" is-config="true" duration-ms="6024" started-at="2021-11-01T15:33:43 FJT" finished-at="2021-11-01T15:33:49 FJT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="doLogin()[pri:1, instance:LoginTest@7ce6a65d]" name="doLogin" duration-ms="10065" started-at="2021-11-01T10:53:31 FJT" finished-at="2021-11-01T10:53:41 FJT">
+        <test-method status="FAIL" signature="doLogin()[pri:1, instance:LoginTest@12cdcf4]" name="doLogin" duration-ms="10049" started-at="2021-11-01T15:33:49 FJT" finished-at="2021-11-01T15:33:59 FJT">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //input[@id='email1']
@@ -19,8 +19,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SasuKe', ip: 'fe80:0:0:0:14c3:e714:b16a:b990%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8381, moz:profile: /var/folders/p_/4pvr_pjj1m7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 306ebae2-7164-c44e-a757-d3465fbd82bc
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11245, moz:profile: /var/folders/p_/4pvr_pjj1m7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd61d29d-1fee-cc4f-b9e5-6675be825234
 *** Element info: {Using=xpath, value=//input[@id='email1']}]]>
             </message>
             <full-stacktrace>
@@ -29,8 +29,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SasuKe', ip: 'fe80:0:0:0:14c3:e714:b16a:b990%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 8381, moz:profile: /var/folders/p_/4pvr_pjj1m7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 306ebae2-7164-c44e-a757-d3465fbd82bc
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11245, moz:profile: /var/folders/p_/4pvr_pjj1m7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd61d29d-1fee-cc4f-b9e5-6675be825234
 *** Element info: {Using=xpath, value=//input[@id='email1']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -81,7 +81,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="FAIL" signature="composeEmail()[pri:2, instance:LoginTest@7ce6a65d]" name="composeEmail" duration-ms="3" started-at="2021-11-01T10:53:41 FJT" finished-at="2021-11-01T10:53:41 FJT">
+        <test-method status="FAIL" signature="composeEmail()[pri:2, instance:LoginTest@12cdcf4]" name="composeEmail" duration-ms="3" started-at="2021-11-01T15:34:00 FJT" finished-at="2021-11-01T15:34:00 FJT">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[failing the compose email test]]>
@@ -124,7 +124,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- composeEmail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoginTest@7ce6a65d]" name="tearDown" is-config="true" duration-ms="677" started-at="2021-11-01T10:53:41 FJT" finished-at="2021-11-01T10:53:42 FJT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoginTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="710" started-at="2021-11-01T15:34:12 FJT" finished-at="2021-11-01T15:34:12 FJT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

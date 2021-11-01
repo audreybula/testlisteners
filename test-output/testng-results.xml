@@ -1,95 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" retried="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG Listener Suite" duration-ms="10420" started-at="2021-11-01T15:33:49 FJT" finished-at="2021-11-01T15:34:00 FJT">
+  <suite name="TestNG Retry Listener Suite" duration-ms="70" started-at="2021-11-01T17:15:21 FJT" finished-at="2021-11-01T17:15:21 FJT">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="10420" started-at="2021-11-01T15:33:49 FJT" finished-at="2021-11-01T15:34:00 FJT">
-      <class name="LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:LoginTest@12cdcf4]" name="setUp" is-config="true" duration-ms="6024" started-at="2021-11-01T15:33:43 FJT" finished-at="2021-11-01T15:33:49 FJT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="doLogin()[pri:1, instance:LoginTest@12cdcf4]" name="doLogin" duration-ms="10049" started-at="2021-11-01T15:33:49 FJT" finished-at="2021-11-01T15:33:59 FJT">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //input[@id='email1']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SasuKe', ip: 'fe80:0:0:0:14c3:e714:b16a:b990%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11245, moz:profile: /var/folders/p_/4pvr_pjj1m7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dd61d29d-1fee-cc4f-b9e5-6675be825234
-*** Element info: {Using=xpath, value=//input[@id='email1']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='email1']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SasuKe', ip: 'fe80:0:0:0:14c3:e714:b16a:b990%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 93.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210927210923, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 11245, moz:profile: /var/folders/p_/4pvr_pjj1m7..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 20.6.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: dd61d29d-1fee-cc4f-b9e5-6675be825234
-*** Element info: {Using=xpath, value=//input[@id='email1']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at LoginTest.doLogin(LoginTest.java:10)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+    <test name="Login Test" duration-ms="70" started-at="2021-11-01T17:15:21 FJT" finished-at="2021-11-01T17:15:21 FJT">
+      <class name="retryfailures.TestLogin">
+        <test-method status="PASS" signature="doLogin()[pri:1, instance:retryfailures.TestLogin@458c1321]" name="doLogin" duration-ms="9" started-at="2021-11-01T17:15:21 FJT" finished-at="2021-11-01T17:15:21 FJT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method status="FAIL" signature="composeEmail()[pri:2, instance:LoginTest@12cdcf4]" name="composeEmail" duration-ms="3" started-at="2021-11-01T15:34:00 FJT" finished-at="2021-11-01T15:34:00 FJT">
+        <test-method status="SKIP" signature="registerUsers()[pri:2, instance:retryfailures.TestLogin@458c1321]" name="registerUsers" duration-ms="5" retried="true" started-at="2021-11-01T17:15:21 FJT" finished-at="2021-11-01T17:15:21 FJT">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[failing the compose email test]]>
+              <![CDATA[expected [2] but found [1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: failing the compose email test
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
 at org.testng.Assert.fail(Assert.java:99)
-at LoginTest.composeEmail(LoginTest.java:18)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at retryfailures.TestLogin.registerUsers(TestLogin.java:22)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -123,12 +58,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- composeEmail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:LoginTest@12cdcf4]" name="tearDown" is-config="true" duration-ms="710" started-at="2021-11-01T15:34:12 FJT" finished-at="2021-11-01T15:34:12 FJT">
+        </test-method> <!-- registerUsers -->
+        <test-method status="PASS" signature="registerUsers()[pri:2, instance:retryfailures.TestLogin@458c1321]" name="registerUsers" duration-ms="1" started-at="2021-11-01T17:15:21 FJT" finished-at="2021-11-01T17:15:21 FJT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- LoginTest -->
+        </test-method> <!-- registerUsers -->
+      </class> <!-- retryfailures.TestLogin -->
     </test> <!-- Login Test -->
-  </suite> <!-- TestNG Listener Suite -->
+  </suite> <!-- TestNG Retry Listener Suite -->
 </testng-results>
